@@ -1,0 +1,7 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20180802</CreaDate><CreaTime>08125300</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><ModDate>20190215</ModDate><ModTime>141532</ModTime></Esri><toolbox name="Cultural_Resource_Models" alias="BLM CO Cultural Resource Modelling Toolbox"><arcToolboxHelpPath>c:\program files (x86)\arcgis\desktop10.4\Help\gp</arcToolboxHelpPath><toolsets/></toolbox><dataIdInfo><idCitation><resTitle>Cultural_Resource_Models</resTitle></idCitation></dataIdInfo><distInfo><distributor><distorFormat><formatName>ArcToolbox Toolbox</formatName></distorFormat></distributor></distInfo></metadata>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20180802</CreaDate><CreaTime>08125300</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><ModDate>20180809</ModDate><ModTime>140336</ModTime></Esri><toolbox name="Cultural_Resource_Models" alias="BLM CO Cultural Resource Modelling Toolbox"><arcToolboxHelpPath>c:\program files (x86)\arcgis\desktop10.3\Help\gp</arcToolboxHelpPath><toolsets/></toolbox><dataIdInfo><idCitation><resTitle>Cultural_Resource_Models</resTitle></idCitation></dataIdInfo><distInfo><distributor><distorFormat><formatName>ArcToolbox Toolbox</formatName></distorFormat></distributor></distInfo></metadata>
+>>>>>>> 3324790478fa542e9ca4323dda7b0c1f6a7a195c
