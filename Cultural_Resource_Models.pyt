@@ -721,7 +721,7 @@ class Chi2_Site_Distribution(object):
             arcpy.CopyFeatures_management("in_memory\\surveys", os.path.join(gdb_path, 'Analysis_Surveys'))
 
 ### Get the sites
-            
+
             # Clip sites to survey coverage
             arcpy.Clip_analysis(params[5].valueAsText, "in_memory\\surveys", "in_memory\\in_sites")
 
@@ -1075,11 +1075,7 @@ class Chi2_Site_Distribution(object):
         except InsufficientSurveyCoverage:
             msg = (
                 "Insufficient survey coverage in analysis area.\n"
-<<<<<<< HEAD
                 "Model requires a minimum of 5 percent survey coverage for analysis.\n"
-=======
-                "Model requires a minimum of 10 percent survey coverage for analysis.\n"
->>>>>>> 3324790478fa542e9ca4323dda7b0c1f6a7a195c
                 "[exiting program]")
             logger.log_all("{}\n\n{}\n\n{}".format(err_banner, msg, err_banner))
             arcpy.AddError(msg)
