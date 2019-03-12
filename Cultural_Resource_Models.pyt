@@ -715,7 +715,6 @@ class Chi2_Site_Distribution(object):
             logger.log_all('Survey proportion within analysis area: {}\n'.format(round(survey_coverage, 3)))
 
             # Enforce minimum survey coverage for analysis
-<<<<<<< HEAD
             if survey_coverage < 0.05:
 =======
             if survey_coverage < 0.1:
