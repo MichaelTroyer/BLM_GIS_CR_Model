@@ -716,9 +716,6 @@ class Chi2_Site_Distribution(object):
 
             # Enforce minimum survey coverage for analysis
             if survey_coverage < 0.05:
-=======
-            if survey_coverage < 0.1:
->>>>>>> 3324790478fa542e9ca4323dda7b0c1f6a7a195c
                 raise InsufficientSurveyCoverage
             
             arcpy.CopyFeatures_management("in_memory\\surveys", os.path.join(gdb_path, 'Analysis_Surveys'))
