@@ -1,4 +1,4 @@
-BLM CRM Model for Colorado
+Cultural Resource Modeling with Python
 
 Author:
 Michael Troyer
